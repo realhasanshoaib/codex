@@ -30,12 +30,6 @@
 
 - Search early, quote exact errors, prefer 2026–2024 sources when recency matters; use Context7 for official docs/API setup and web search for news, issues, forums, pricing, incidents, comparisons, and fallback research.
 
-## Delegation
-
-- Delegate separable research, code reading, logs, CI, testing, refactors, codegen, and bounded implementation in parallel when useful; track dependencies, avoid conflicts, and keep critical-path decisions local.
-- Model split: gpt-5.5 high for review/suggestions/complex work; gpt-5.5 low by default; gpt 5.4 mini high only for read-only or computer-use support, never diagnosis/fix/review/deploy decisions.
-- Review subagent output and verify important claims.
-
 # Code Standards
 
 - Write readable, modular, avoid noisy defensive checks.
