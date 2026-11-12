@@ -51,7 +51,7 @@ When you run a command yourself, print only what you need, because you pay for i
 
 # Machines
 
-The MacBook Air is for light work. Run heavy Linux work on Instabox and macOS-only builds or simulators on the Mac mini. The Air's home folder is `/Users/macmini` for historical reasons, so a `macmini` path does not mean you are on the Mac mini (its home is `/Users/agents`, reached with `ssh agents-macmini`). Only `scutil --get ComputerName` tells you which machine you are on: "Hasan’s MacBook Air" is the Air, anything else is the Mac mini. Run it before heavy work, use the relevant machine instructions, and clean up processes you start.
+The MacBook Air is for light work. Run heavy work on the Mac mini (`ssh agents-macmini`) or Instabox. The Air's home folder is `/Users/macmini`, so check the machine with `scutil --get ComputerName`, not the path. Clean up processes you start.
 
 If CI billing blocks hosted runners, use Instabox without asking; wait for a slot if they're all occupied.
 
